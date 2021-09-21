@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Поиск</title>
+    </head>
+    <body>
+        <h1 align="center">НАЙДИ АВТО СВОЕЙ МЕЧТЫ</h1>
+        <form action="https://fom.in.ua/echo" align="center">
+            <label for="type" id="type">Тип авто:</label>
+            <select id="type" name="type">
+                <option value="any">Любой</option>
+                <option value="legkovye">Легковые</option>
+                <option value="gruzovye">Грузовые</option>
+                <option value="moto">Мото</option>
+                <option value="bus">Автобусы</option>
+                <option value="pritsepy">Прицепы</option>
+                <option value="agro">Сельскохозяйственные</option>
+            </select><br>
+            <label for="mark" id="mark">Марка авто:</label>
+            <select id="mark" name="mark">
+                <option value="any">Любая</option>
+                <option value="Toyota">Toyota</option>
+                <option value="Mazda">Mazda</option>
+                <option value="BMW">BMW</option>
+                <option value="Suzuki">Suzuki</option>
+                <option value="Mitsubishi">Mitsubishi</option>
+                <option value="Mercedes-Benz">Mercedes-Benz</option>
+                <option value="Ford">Ford</option>
+                <option value="Ferrari">Ferrari</option>
+            </select><br>
+            <label for="country" id="country">Страна производства:</label>
+            <select id="country" name="country">
+                <option value="any">Любая</option>
+                <option value="Japan">Япония</option>
+                <option value="Korea">Корея</option>
+                <option value="Germany">Германия</option>
+                <option value="USA">США</option>
+                <option value="Ukraine">Украина</option>
+                <option value="Italy">Италия</option>
+            </select><br>
+            <label for="price" id="price">Цена, $</label>
+            <input type="number" id="price" name="price" placeholder="От">
+            <input type="number" id="price" name="price" placeholder="До"><br>
+            <label for="year" id="year">Год выпуска</label>
+            <input type="number" id="year" name="year" placeholder="От">
+            <input type="number" id="year" name="year" placeholder="До"><br>
+            <label for="status">Состояние:</label>
+            <label for="broken">Битая</label>
+            <input type="checkbox" name="broken" id="broken">
+            <label for="in-credit">В кредите</label>
+            <input type="checkbox" name="in-credit" id="in-credit">
+            <label for="not-cleared">Не растаможена</label>
+            <input type="checkbox" name="not-cleared" id="not-cleared"><br>
+            <label for="fuel" id="fuel">Тип топлива:</label>
+            <select id="fuel" name="fuel">
+                <option value="any">Любое</option>
+                <option value="gas">Бензин</option>
+                <option value="diesel">Дизель</option>
+                <option value="gbo">ГБО</option>
+                <option value="hybrid">Гибрид</option>
+                <option value="electro">Электро</option>
+            </select>
+            <label for="transmission" id="transmission">Коробка передач:</label>
+            <select id="transmission" name="transmission">
+                <option value="any">Любая</option>
+                <option value="mechanic">Механика</option>
+                <option value="automat">Автомат</option>
+                <option value="robot">Робот</option>
+                <option value="variator">Вариатор</option>
+                <option value="pedals">Педали</option>
+            </select><br>
+            <label for="color" id="color">Цвет:</label>
+            <select id="color" name="color">
+                <option value="any">Любой</option>
+                <option value="black">Черный</option>
+                <option value="white">Белый</option>
+                <option value="blue">Синий</option>
+                <option value="red">Красный</option>
+                <option value="brown">Коричневый</option>
+                <option value="yellow">Желтый</option>
+                <option value="green">Зеленый</option>
+            </select>
+            <label for="comfort" id="comfort">Комфорт:</label>
+            <select id="comfort" name="comfort">
+                <option value="any">Не важно</option>
+                <option value="climat-control">Климат-контроль</option>
+                <option value="cruize-control">Круиз-контроль</option>
+                <option value="seat-heating">Подогрев сидений</option>
+                <option value="leather-saloon">Кожаный салон</option>
+                <option value="ps5">Встроенная PS5</option>
+                <option value="parktronic">Парктроник</option>
+            </select><br>
+            <input type="submit" value="Искать">
+        </form>
+        <p><img src="../images/tesla.png" width="564" height="300" align="left"></p>
+        <p><img src="../images/truck.jpeg" width="550" height="300" align="center">
+            <img src="../images/comb.jpeg" width="550" height="300" align="right">
+        </p>
+    </body>
+</html>
